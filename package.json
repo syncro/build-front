@@ -43,8 +43,7 @@
     "wrappy": "^1.0.2"
   },
   "scripts": {
-    "build": "gulp build",
-    "copy:dist": "mv dist/index*.js dist/index.js"
+    "build": "nodejs ./node_modules/gulp-v4/bin/gulp.js build"
   },
   "gulp-cli": {
     "package": "gulp-v4"
